@@ -18,9 +18,9 @@
 
 <form on:submit|preventDefault={(e) => login(e)}>
   <h2>Email</h2>
-  <input bind:value={$email}/>
+  <input type="email" bind:value={$email}/>
   <h2>Password</h2>
-  <input bind:value={$password}/>
+  <input type="password" bind:value={$password}/>
   <button type="submit">Login</button>
 </form>
 
